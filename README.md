@@ -65,7 +65,7 @@ We predict the values for our testing set (x_test) and save it in the variable `
 y_pred = lr.predict(x_test)
 ```
 
-We now check the accuracy score to check how well out model has performed.
+We now check the accuracy score to check how well our model has performed.
 
 ```
 from sklearn.metrics import r2_score
